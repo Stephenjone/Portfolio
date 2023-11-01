@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Poppins:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav 
+{
+    height:80px;
+    background-color: #D80032; 
+    text-align: center;
+    justify-content: center;
+    margin-top:0px;
+    padding:0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+
+  
+.nav li 
+{
+    font-size: 20px;
+    display:inline-block;
+    position:relative;
+    margin-right:50px;
+    margin-top:10px;
+    color:#fff;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 7px;
+    font-family: 'Edu TAS Beginner', cursive;
+   
+}
+
+h2
+{
+    color:#fff;
+    font-size:35px;
+    display:inline-block;
+    position:relative;
+    margin-top:15px;
+    margin-right:950px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.body
+{
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+
+.myinfo
+{
+    height:600px;
+    width:100%;
+    background-color:#272829;
+    display: flex;
+}
+
+img
+{
+    float:right;
+    margin-top:150px;
+    margin-left:300px;
+}
+
+h1
+{
+    font-size: 70px;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: #fff;
+    display: inline-block;
+    margin-left:200px;
+    margin-top:300px;
+}
+
+p
+{
+    font-size:30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    display:inline-block;
+    position: absolute;
+    color: #fff;
+    margin-top:400px;
+    margin-left:200px;
+}
