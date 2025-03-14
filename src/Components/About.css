@@ -1,0 +1,125 @@
+.about {
+    width: 100% auto;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 80px;                 
+    padding: 70px;             
+    height: auto;              
+    flex-wrap: nowrap;            
+}
+
+.about-contents {
+    justify-content: center;
+    text-align: center;
+}
+
+.about-contents .para-heading {
+    color: #fff;               
+    font-size: 40px;           
+    margin-top: 0;             
+    margin-bottom: 20px;       
+    font-weight: 400;
+    font-family: "Comic Neue", cursive;
+}
+
+.about-contents .para-about {
+    font-size: 22px;           
+    color: #fff;               
+    line-height: 1.6;
+    padding: 0px;              
+    font-family: "Comic Neue", cursive;
+}
+
+.image {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+}
+
+.image img {
+    border-radius: 20%;        
+    width: 300px;              
+    height: 300px;             
+    object-fit: cover;
+}
+
+
+.resume {
+    width: 120px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #504e4e;  
+    color: #fff;               
+    border: none;              
+    cursor: pointer;           
+    font-size: 20px;           
+    margin-top: 20px;          
+    margin-bottom: 40px;       
+}
+
+
+.resume:hover {
+    background-color: #869198;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;  
+        gap: 40px;               
+        padding: 50px;           
+    }
+
+    .about-contents .para-heading {
+        font-size: 30px;         
+        margin-bottom: 15px;     
+    }
+
+    .about-contents .para-about {
+        font-size: 20px;        
+        line-height: 1.5;        
+    }
+
+    .image img {
+        width: 250px;            
+        height: 250px;           
+    }
+
+    .resume {
+        width: 100px;           
+        height: 35px;            
+        font-size: 18px;         
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;  /* Ensure stacking of content */
+        gap: 20px;               /* Minimal gap between image and text */
+        padding: 20px;           /* Reduce padding even more for small screens */
+    }
+
+    .about-contents .para-heading {
+        font-size: 24px;         /* Further reduce heading font size */
+        margin-bottom: 10px;     /* Reduce space below heading */
+    }
+
+    .about-contents .para-about {
+        font-size: 18px;         /* Further reduce paragraph font size */
+        line-height: 1.4;        /* Adjust line height for readability */
+    }
+
+    .image img {
+        width: 200px;            /* Further reduce image size */
+        height: 200px;           /* Adjust image size */
+    }
+
+    .resume {
+        width: 90px;             /* Smaller button width */
+        height: 30px;            /* Smaller button height */
+        font-size: 16px;         /* Further reduce button font size */
+    }
+}

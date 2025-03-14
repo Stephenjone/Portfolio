@@ -1,0 +1,39 @@
+.home {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to right, #434343 0%, black 100%);
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+  }
+  
+  .banner-img img {
+    width: 100%;
+    height: 1000px;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Comic Neue", cursive;
+
+  }
+  
+  .home-heading {
+    font-size: 120px;
+    font-weight: lighter;
+    margin: 0px;
+  }
+  
+  .para-home {
+    font-size: 23px;
+    margin: 0px;
+  }
+  

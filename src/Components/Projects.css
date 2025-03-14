@@ -1,0 +1,156 @@
+#project {
+    max-width:100%;
+    margin: 0px;
+    padding: 1px;
+}
+
+#project h2 {
+    color: #fff;               
+    font-size: 40px;            
+    padding: 30px;
+    font-weight: lighter;
+    font-family: "Comic Neue", cursive;
+    margin: 0px;
+    
+}
+
+.project-section {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;            
+    justify-content: center;    
+}
+
+.project-card {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin: 30px;
+    font-family: "Comic Neue", cursive;
+    padding: 10px;
+    /* From https://css.glass */
+background: rgba(103, 104, 104, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.5px);
+-webkit-backdrop-filter: blur(3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-card h5 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project-card .project-description {
+    font-size: 18px;
+    color: #fff;
+}
+
+.project-card .project-skills {
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #504e4e; 
+    color: #fff;               
+    border: none;              
+    cursor: pointer;          
+    font-size: 16px;           
+    margin-top: 20px;         
+}
+
+
+.btn:hover {
+    background-color: #869198;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #project h2 {
+        font-size: 30px;          
+        padding: 20px;             
+    }
+
+    .project-section {
+        flex-direction: column;   
+        align-items: center;     
+        gap: 20px;                
+    }
+
+    .project-card {
+        width: 80%;               
+        margin: 20px 0;           
+    }
+
+    .project-card h5 {
+        font-size: 20px;          
+    }
+
+    .project-card .project-description,
+    .project-card .project-skills {
+        font-size: 16px;          
+    }
+
+    .btn {
+        width: 100px;             
+        height: 35px;             
+        font-size: 14px;          
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #project h2 {
+        font-size: 24px;           /* Further reduce heading font size */
+        padding: 15px;             /* Further reduce padding */
+    }
+
+    .project-section {
+        flex-direction: column;   /* Stack the project cards vertically */
+        align-items: center;      /* Center align the cards */
+        gap: 10px;                /* Reduce spacing between cards */
+    }
+
+    .project-card {
+        width: 90%;               /* Further reduce the width of the project cards */
+        margin: 15px 0;           /* Reduce margins */
+    }
+
+    .project-card h5 {
+        font-size: 18px;          /* Further reduce font size of titles */
+    }
+
+    .project-card .project-description,
+    .project-card .project-skills {
+        font-size: 14px;          /* Reduce font size of description and skills */
+    }
+
+    .btn {
+    width: 120px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #405D72; /* Button color */
+    color: #fff;               /* Button text color */
+    border: none;              /* Remove border */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 20px;           /* Font size for the button text */
+    margin-top: 20px;          /* Space above the button */
+    margin-bottom: 40px;      /* Further reduce font size */
+    }
+}

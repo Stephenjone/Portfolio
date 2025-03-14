@@ -1,0 +1,82 @@
+.skills-section {
+  width: 100% auto;
+  height: auto;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  margin: 0px;
+  top:0px;
+}
+
+.skills-section h2 {
+  color: #fff;
+  font-size: 40px;
+  padding: 30px;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.button-container .technical-btn, 
+.button-container .softskills-btn 
+{
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #504e4e;  
+    color: #fff;              
+    border: none;           
+    cursor: pointer;           
+    font-size: 20px;           
+    margin-top: 5px;          
+    margin-bottom: 40px; 
+    margin-left: 30px;
+}
+
+
+.skills-list {
+  text-align: left;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fff;
+  padding-left: 270px;
+  font-weight: bolder;
+}
+
+
+.progress-bar {
+  width: 70%; 
+  height: 15px;
+  background-color: #2c3033;
+  border-radius: 4px;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto; 
+}
+
+.progress {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  animation: progress-animation 7s ease-in-out forwards;
+  width: 0%;
+}
+
+
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: var(-progress-width);
+  }
+}
